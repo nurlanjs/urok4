@@ -38,3 +38,22 @@ for (let i = 0; i < data2.length; i++) {
     result2[i] = data2[data2.length - 1 - i];
 }
 console.log(result2);
+
+
+/*
+     *
+    ***
+   *****
+  *******
+ *********
+***********
+*/
+
+let str = '';
+for (let i = 6; i > 0; i--) {
+    for (let j = i; j >= i; j--) {
+        str += ' ';
+    }
+    str += '*\n';
+}
+console.log(str);
